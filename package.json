@@ -1,0 +1,17 @@
+{
+  "name": "xx-components",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lernaPublish": "lerna publish from-git --yes",
+    "lernaCreate": "lerna create -y"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "react": "^17.0.1"
+  }
+}
