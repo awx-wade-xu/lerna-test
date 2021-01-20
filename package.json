@@ -1,5 +1,5 @@
 {
-  "name": "xx-components",
+  "name": "lerna-test",
   "private": true,
   "workspaces": [
     "packages/*"
